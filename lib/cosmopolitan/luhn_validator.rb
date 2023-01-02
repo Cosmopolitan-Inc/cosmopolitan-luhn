@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "luhn_validator/version"
+require_relative 'luhn_validator/version'
 
 module Cosmopolitan
   module LuhnValidator
