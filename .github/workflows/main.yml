@@ -21,11 +21,11 @@ jobs:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true
 
-    - name: Run RSpec testing
-      run: bundle exec rspec
+    - name: Run Gems checksums verification between RubyGems and Bundler
+      run: bundle exec bundler-integrity
 
     - name: Run Bundler Audit dependencies verification
       run: bundle exec bundler-audit check --update
 
-    - name: Run Gems checksums verification between RubyGems and Bundler
-      run: bundle exec bundler-integrity
+    - name: Run RSpec testing
+      run: bundle exec rspec

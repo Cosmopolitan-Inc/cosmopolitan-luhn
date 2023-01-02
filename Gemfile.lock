@@ -6,7 +6,6 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    brakeman (5.4.0)
     bundler-audit (0.9.1)
       bundler (>= 1.2.0, < 3)
       thor (~> 1.0)
@@ -32,7 +31,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  brakeman (= 5.4.0)
   bundler-audit (= 0.9.1)
   bundler-integrity (= 1.0.9)
   cosmopolitan-luhn_validator!
