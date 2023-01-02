@@ -14,7 +14,6 @@ group :test do
 end
 
 group :development, :test do
-  gem 'brakeman', '5.4.0'
   gem 'bundler-audit', '0.9.1'
   gem 'bundler-integrity', '1.0.9'
 end
