@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in cosmopolitan-luhn_validator.gemspec
+# Specify your gem's dependencies in cosmopolitan-luhn.gemspec
 gemspec
 
 group :development do

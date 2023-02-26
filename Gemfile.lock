@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cosmopolitan-luhn_validator (0.1.0)
+    cosmopolitan-luhn (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -33,7 +33,7 @@ PLATFORMS
 DEPENDENCIES
   bundler-audit (= 0.9.1)
   bundler-integrity (= 1.0.9)
-  cosmopolitan-luhn_validator!
+  cosmopolitan-luhn!
   rake (= 13.0.6)
   rspec (= 3.12.0)
 

@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative 'luhn_validator/version'
+require_relative 'luhn/version'
 
 module Cosmopolitan
-  module LuhnValidator
+  module Luhn
     class Error < StandardError; end
     # Your code goes here...
   end
