@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'cosmopolitan/luhn_validator'
+require 'cosmopolitan/luhn'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

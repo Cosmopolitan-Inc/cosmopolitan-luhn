@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative 'lib/cosmopolitan/luhn_validator/version'
+require_relative 'lib/cosmopolitan/luhn/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'cosmopolitan-luhn_validator'
-  spec.version = Cosmopolitan::LuhnValidator::VERSION
+  spec.name = 'cosmopolitan-luhn'
+  spec.version = Cosmopolitan::Luhn::VERSION
   spec.authors = ['tomczak-mateusz']
   spec.email = ['mateusz.tomczak@sperasoft.com']
 
@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.metadata['allowed_push_host'] = 'Placeholder'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/tomczak-mateusz/cosmopolitan-luhn_validator'
-  spec.metadata['changelog_uri'] = 'https://github.com/tomczak-mateusz/cosmopolitan-luhn_validator/blob/main/CHANGELOG.md'
+  spec.metadata['source_code_uri'] = 'https://github.com/tomczak-mateusz/cosmopolitan-luhn'
+  spec.metadata['changelog_uri'] = 'https://github.com/tomczak-mateusz/cosmopolitan-luhn/blob/main/CHANGELOG.md'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
